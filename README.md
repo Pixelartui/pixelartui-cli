@@ -20,7 +20,7 @@ $ npm install -g pixelartui-cli
 $ pixelartui-cli COMMAND
 running command...
 $ pixelartui-cli (--version)
-pixelartui-cli/0.0.0 darwin-arm64 node-v24.3.0
+pixelartui-cli/0.1.0 darwin-arm64 node-v24.3.0
 $ pixelartui-cli --help [COMMAND]
 USAGE
   $ pixelartui-cli COMMAND
@@ -29,6 +29,7 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`pixelartui-cli gen component [NAME]`](#pixelartui-cli-gen-component-name)
 * [`pixelartui-cli hello PERSON`](#pixelartui-cli-hello-person)
 * [`pixelartui-cli hello world`](#pixelartui-cli-hello-world)
 * [`pixelartui-cli help [COMMAND]`](#pixelartui-cli-help-command)
@@ -42,6 +43,26 @@ USAGE
 * [`pixelartui-cli plugins uninstall [PLUGIN]`](#pixelartui-cli-plugins-uninstall-plugin)
 * [`pixelartui-cli plugins unlink [PLUGIN]`](#pixelartui-cli-plugins-unlink-plugin)
 * [`pixelartui-cli plugins update`](#pixelartui-cli-plugins-update)
+
+## `pixelartui-cli gen component [NAME]`
+
+Cli to generate files for new component
+
+```
+USAGE
+  $ pixelartui-cli gen component [NAME]
+
+ARGUMENTS
+  [NAME]  component name
+
+DESCRIPTION
+  Cli to generate files for new component
+
+EXAMPLES
+  NewComponent.tsx
+```
+
+_See code: [src/commands/gen/component.ts](https://github.com/Pixelartui/pixelartui-cli/blob/v0.1.0/src/commands/gen/component.ts)_
 
 ## `pixelartui-cli hello PERSON`
 
@@ -65,7 +86,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [src/commands/hello/index.ts](https://github.com/Pixelartui/pixelartui-cli/blob/v0.0.0/src/commands/hello/index.ts)_
+_See code: [src/commands/hello/index.ts](https://github.com/Pixelartui/pixelartui-cli/blob/v0.1.0/src/commands/hello/index.ts)_
 
 ## `pixelartui-cli hello world`
 
@@ -83,7 +104,7 @@ EXAMPLES
   hello world! (./src/commands/hello/world.ts)
 ```
 
-_See code: [src/commands/hello/world.ts](https://github.com/Pixelartui/pixelartui-cli/blob/v0.0.0/src/commands/hello/world.ts)_
+_See code: [src/commands/hello/world.ts](https://github.com/Pixelartui/pixelartui-cli/blob/v0.1.0/src/commands/hello/world.ts)_
 
 ## `pixelartui-cli help [COMMAND]`
 
