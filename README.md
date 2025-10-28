@@ -20,7 +20,7 @@ $ npm install -g pixelartui-cli
 $ pixelartui-cli COMMAND
 running command...
 $ pixelartui-cli (--version)
-pixelartui-cli/0.1.0 darwin-arm64 node-v24.3.0
+pixelartui-cli/0.2.0 darwin-arm64 node-v24.3.0
 $ pixelartui-cli --help [COMMAND]
 USAGE
   $ pixelartui-cli COMMAND
@@ -62,7 +62,7 @@ EXAMPLES
   NewComponent.tsx
 ```
 
-_See code: [src/commands/gen/component.ts](https://github.com/Pixelartui/pixelartui-cli/blob/v0.1.0/src/commands/gen/component.ts)_
+_See code: [src/commands/gen/component.ts](https://github.com/Pixelartui/pixelartui-cli/blob/v0.2.0/src/commands/gen/component.ts)_
 
 ## `pixelartui-cli hello PERSON`
 
@@ -86,7 +86,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [src/commands/hello/index.ts](https://github.com/Pixelartui/pixelartui-cli/blob/v0.1.0/src/commands/hello/index.ts)_
+_See code: [src/commands/hello/index.ts](https://github.com/Pixelartui/pixelartui-cli/blob/v0.2.0/src/commands/hello/index.ts)_
 
 ## `pixelartui-cli hello world`
 
@@ -104,7 +104,7 @@ EXAMPLES
   hello world! (./src/commands/hello/world.ts)
 ```
 
-_See code: [src/commands/hello/world.ts](https://github.com/Pixelartui/pixelartui-cli/blob/v0.1.0/src/commands/hello/world.ts)_
+_See code: [src/commands/hello/world.ts](https://github.com/Pixelartui/pixelartui-cli/blob/v0.2.0/src/commands/hello/world.ts)_
 
 ## `pixelartui-cli help [COMMAND]`
 
