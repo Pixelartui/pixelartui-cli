@@ -20,13 +20,15 @@ export default class Component extends Command {
           if (err) {
             console.log('Error creating folder')
           } else {
-            for (const [index, file] of fileNames) {
-              if (index === '3') {
+            for (const [index, file] of fileNames.entries()) {
+              if (index === 3) {
                 fs.createWriteStream(`./src/components/${folderName}/${args.name + file}`)
+                continue
               }
 
-              if (index === '4') {
+              if (index === 4) {
                 fs.createWriteStream(`./src/components/${folderName}/${folderName + file}`)
+                continue
               }
 
               fs.createWriteStream(`./src/components/${folderName}/${file}`)
